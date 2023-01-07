@@ -3,6 +3,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+
+
+/* header section style */
+
 .header-container{
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -45,4 +49,91 @@
     border-radius: 5px;
     margin-right: 210px;
     margin-left: 65%;
+}
+
+
+/* failure section style */
+
+.prev-failures{
+    margin: 45px 15%;
+}
+
+.prev-failure-container{
+    display: flex;
+}
+
+.title{
+    text-align: left;
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #151414;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 15px;
+    color: #444343;
+    padding-right: 5px;
+    margin-bottom: 30px;
+}
+
+.prev-failure-container ul>li{
+    text-align: left;
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    color:#444343;
+    padding-bottom: 7px;
+}
+
+.prev-failure-container ul>li:before{
+    content: '✓';
+    color:aqua;
+}
+
+/* My plans section */
+
+.my-plan{
+    margin-top: 40px;
+}
+
+.section-title{
+    text-align: center;
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #151414;
+}
+
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 15%;
+}
+
+.catagory{
+    display: inline-block;
+    justify-content: center;
+}
+
+.catagory img{
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.plan-header{
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.plan-description{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #737272;
 }
