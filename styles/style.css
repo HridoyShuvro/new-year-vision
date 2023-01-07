@@ -53,7 +53,7 @@
 }
 
 
-/* failure section style */
+/*my previous failure section style */
 
 .prev-failures{
     margin: 45px 15%;
@@ -94,7 +94,7 @@
     color:aqua;
 }
 
-/* My plans section */
+/* My plans section style */
 
 .my-plan{
     margin-top: 40px;
@@ -102,7 +102,7 @@
 
 .section-title{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 30px;
@@ -139,6 +139,60 @@
     color: #737272;
 }
 
+/* plan execution section style */
+
+.plan-execution{
+    background-image: url(../images/backgrnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.gradient-second{
+    background-image: linear-gradient(to left,#0a6363, rgba(199, 108, 157, 0));
+    height: 550px;
+}
+
+.execution-title{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.plan-execution-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.roadmap{
+    margin: 30px 100px;
+}
+
+.steps{
+    margin: 30px 100px;
+    padding-left: 250px;
+}
+
+.execution-header{
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #005FAC;
+}
+
+.plan-execution-container ul li{
+    list-style: square;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 15px;
+}
 
 /* gradient section style */
 .gradient-sec {
